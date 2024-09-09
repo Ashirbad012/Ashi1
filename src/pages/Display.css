@@ -1,0 +1,107 @@
+/* Ensure a consistent font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page Container */
+  .page-container {
+    perspective: 1000px;
+    margin-top: 20px;
+  }
+  
+  /* Gradient Background */
+  .gradient-background {
+    background: linear-gradient(-135deg, #50b6c8, #4158d0);
+    color: #fff; /* White text for contrast */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Align content center */
+  .d-flex.align-items-center.justify-content-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Form Section */
+  .card-body {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Form Elements */
+  .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+    padding: 0.800rem .75rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    border-radius: 12px;
+    background: linear-gradient(-135deg, #50b6c8, #4158d0);
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(-135deg, #4158d0, #50b6c8);
+  }
+  
+  .btn-primary:active {
+    transform: scale(0.95);
+  }
+  
+  /* Alignment and Spacing */
+  .mb-4, .mb-5 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  
+  .text-secondary {
+    color: #6c757d;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  
+  .link-secondary {
+    color: #6c757d;
+    text-decoration: none;
+  }
+  
+  .link-secondary:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      margin-bottom: 1rem;
+    }
+  }
+  
